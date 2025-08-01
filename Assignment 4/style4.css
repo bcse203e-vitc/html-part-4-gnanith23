@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  padding: 40px;
+}
+
+.box {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.box1 {
+  background-color: lightblue;
+  padding: 30px;
+  border: 3px solid blue;
+}
+
+.box2 {
+  background-color: yellowgreen;
+  padding: 15px;
+  border: 2px dashed orange;
+}
+
+.box3 {
+  background-color: honeydew;
+  padding: 10px;
+  color: dimgray;
+  border: 2px dotted green;
+}

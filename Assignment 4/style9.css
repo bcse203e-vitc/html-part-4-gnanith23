@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.1s;
+  background-color: #3498db;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.btn:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+}
+
+.cancel {
+  background-color: #e74c3c;
+}
+
+.cancel:hover {
+  background-color: #c0392b;
+}
+
+.submit {
+  background-color: #2ecc71;
+}
+
+.submit:hover {
+  background-color: #27ae60;
+}
